@@ -57,7 +57,7 @@ h1 {
 main {
     /*Main color and font of the webpage*/
     color: #0d160b;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 
@@ -65,9 +65,9 @@ main {
 
 h3 {
     /*Text Properties*/
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 800;
-    font-size: 1.80em;
+    font-size: 3em;
     text-align: center;
     /*Distance between Section-Title and the header*/
     margin-top: 0;
@@ -87,4 +87,17 @@ h3 {
 /*Spotify Embedded Player*/
 #spotify-album {
     margin: auto 10%;
+}
+
+/*About Us Section*/
+#about-us-text {
+    /*Text Properties*/
+    font-size: 1.8em;
+    line-height: 1.75em;
+    /*To center it*/
+    width: 70%;
+    margin: auto 15%;
+    text-align: justify;
+    /*Space between the paragraph and the title*/
+    padding-bottom: 0.75em;
 }
