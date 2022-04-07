@@ -1,10 +1,9 @@
 body {
     background-color: #fceff9;
+    color: #151814;
     margin: 0;
     padding: 0;
 }
-
-
 
 
 header {
@@ -52,15 +51,11 @@ h1 {
 }
 
 
-
-
 main {
     /*Main color and font of the webpage*/
     color: #0d160b;
     font-family: 'Barlow', sans-serif;
 }
-
-
 
 
 h3 {
@@ -74,7 +69,7 @@ h3 {
     padding-top: 2.5em;
     /*To add 2 horizontal lines*/
     line-height: 0.1em;
-    border-bottom: 0.3em solid #0d160b;
+    border-bottom: 0.3em solid #151814;
     border-bottom-style: double;
 }
 
@@ -90,8 +85,6 @@ h3 {
 }
 
 
-
-
 /*About Us Section*/
 #about-us-text {
     /*Text Properties*/
@@ -103,4 +96,57 @@ h3 {
     text-align: justify;
     /*Space between the paragraph and the title*/
     padding-bottom: 0.75em;
+}
+
+
+/*Members Section*/
+#victoria-legrand-flex, #alex-scally-flex {
+    background-color: #151814;
+    color: #fceff9;
+}
+
+#victoria-legrand-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5em;
+    margin-bottom: 1em;
+}
+
+#victoria-legrand-img {
+    display: block;
+    order: 2;
+    height: 26em;
+    width: 26em;
+}
+
+#victoria-legrand-bio {
+    order: 1;
+    flex-grow: 3;
+    padding-top: 3.5em;
+    padding-left: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#alex-scally-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5em;
+}
+
+#alex-scally-bio {
+    order: 2;
+    flex-grow: 3;
+    padding-top: 3em;
+    padding-right: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#alex-scally-img {
+    display: block;
+    height: 26em;
+    width: 26em;
 }
