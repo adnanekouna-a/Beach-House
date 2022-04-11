@@ -100,53 +100,79 @@ h3 {
 
 
 /*Members Section*/
-#victoria-legrand-flex, #alex-scally-flex {
+
+#victoria-flex-container {
+    display: flex;
     background-color: #151814;
     color: #fceff9;
-}
-
-#victoria-legrand-flex {
-    display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 5em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
-#victoria-legrand-img {
+#victoria-img {
     display: block;
     order: 2;
     height: 26em;
     width: 26em;
 }
 
-#victoria-legrand-bio {
+#victoria-text {
+    /*Item Props*/
     order: 1;
-    flex-grow: 3;
-    padding-top: 3.5em;
-    padding-left: 1em;
     text-align: center;
     font-size: 2em;
+    line-height: 1.5em;
+    /*Container Props*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-#alex-scally-flex {
+#victoria-title {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+#victoria-bio {
+    text-align: justify;
+    margin: 0 2em 2em 2em;
+}
+
+#alex-flex-container {
     display: flex;
+    background-color: #151814;
+    color: #fceff9;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 5em;
+    margin-bottom: 5em;
 }
 
-#alex-scally-bio {
-    order: 2;
-    flex-grow: 3;
-    padding-top: 3em;
-    padding-right: 1em;
-    text-align: center;
-    font-size: 2em;
-}
-
-#alex-scally-img {
+#alex-img {
     display: block;
+    order: 1;
     height: 26em;
     width: 26em;
+}
+
+#alex-text {
+    /*Item Props*/
+    order: 2;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5em;
+    /*Container Props*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#alex-title {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+#alex-bio {
+    text-align: justify;
+    margin: 0 2em 0.5em 2em;
 }
