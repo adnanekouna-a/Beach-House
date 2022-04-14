@@ -1,173 +1,168 @@
 body {
-    background-color: #fceff9;
-    color: #151814;
-    margin: 0;
-    padding: 0;
+	background-color: #fceff9;
+	color: #151814;
+	margin: 0;
+	padding: 0;
 }
 
-
 header {
-    /*Size of the header*/
-    height: 10%;
-    width: 100%;
-    /*Header's background*/
-    background-image: url(img/header-background.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    /*Stick the header to top of the page*/
-    margin: 0;
-    padding-top: 8em;
-    padding-bottom: 8em;
-    /*Space between Image, Title and Subtitle*/
-    line-height: 0.75em;
+	/*Size of the header*/
+	height: 10%;
+	width: 100%;
+	/*Header's background*/
+	background-image: url(img/header-background.webp);
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	/*Stick the header to top of the page*/
+	margin: 0;
+	padding-top: 8em;
+	padding-bottom: 8em;
+	/*Space between Image, Title and Subtitle*/
+	line-height: 0.75em;
 }
 
 #header-picture {
-    /*Turn the picture into a circle*/
-    border-radius: 100%;
+	/*Turn the picture into a circle*/
+	border-radius: 100%;
 }
 
 h1 {
-    /*Text Properties*/
-    font-family: 'El Messiri', sans-serif;
-    font-size: 5em;
-    text-shadow: 0.02em 0.02em 0.1em #000;
-    /*Space between Title and Image*/
-    line-height: 1em;
-    /*Stick the Title to the top of the header*/
-    margin: 0;
+	/*Text Properties*/
+	font-family: 'El Messiri', sans-serif;
+	font-size: 5em;
+	text-shadow: 0.02em 0.02em 0.1em #000;
+	/*Space between Title and Image*/
+	line-height: 1em;
+	/*Stick the Title to the top of the header*/
+	margin: 0;
 }
 
 #sub-title {
-    /*Text Properties*/
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1.55em;
-    text-shadow: 0.02em 0.02em 0.1em #000;
-    /*Reduce space between Title and Subtitle*/
-    margin-top: 0;
+	/*Text Properties*/
+	font-family: 'Barlow', sans-serif;
+	font-size: 1.55em;
+	text-shadow: 0.02em 0.02em 0.1em #000;
+	/*Reduce space between Title and Subtitle*/
+	margin-top: 0;
 }
-
 
 main {
-    /*Main color and font of the webpage*/
-    color: #0d160b;
-    font-family: 'Barlow', sans-serif;
+	/*Main color and font of the webpage*/
+	color: #0d160b;
+	font-family: 'Barlow', sans-serif;
 }
 
-
 h2 {
-    /*Text Properties*/
-    font-family: 'Barlow', sans-serif;
-    font-weight: 800;
-    font-size: 3em;
-    text-align: center;
-    /*Distance between Section-Title and the header*/
-    margin-top: 0;
-    padding-top: 2.5em;
-    /*To add 2 horizontal lines*/
-    line-height: 0.1em;
-    border-bottom: 0.3em solid #151814;
-    border-bottom-style: double;
+	/*Text Properties*/
+	font-family: 'Barlow', sans-serif;
+	font-weight: 800;
+	font-size: 3em;
+	text-align: center;
+	/*Distance between Section-Title and the header*/
+	margin-top: 0;
+	padding-top: 2.5em;
+	/*To add 2 horizontal lines*/
+	line-height: 0.1em;
+	border-bottom: 0.3em solid #151814;
+	border-bottom-style: double;
 }
 
 /*To add 2 horizontal lines*/
 .surround-lines {
-    background-color: #fceff9;
-    padding: 0 0.5em;
+	background-color: #fceff9;
+	padding: 0 0.5em;
 }
 
 /*Spotify Embedded Player*/
 #spotify-album {
-    margin: auto 10%;
+	margin: auto 10%;
 }
-
 
 /*About Us Section*/
 #about-us-text {
-    /*Text Properties*/
-    font-size: 1.8em;
-    line-height: 1.75em;
-    /*To center it*/
-    width: 70%;
-    margin: auto 15%;
-    text-align: justify;
-    /*Space between the paragraph and the title*/
-    padding-bottom: 0.75em;
+	/*Text Properties*/
+	font-size: 1.8em;
+	line-height: 1.75em;
+	/*To center it*/
+	width: 70%;
+	margin: auto 15%;
+	text-align: justify;
+	/*Space between the paragraph and the title*/
+	padding-bottom: 0.75em;
 }
-
 
 /*Members Section*/
 
 #victoria-flex-container {
-    display: flex;
-    background-color: #151814;
-    color: #fceff9;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-bottom: 1.5em;
+	display: flex;
+	background-color: #151814;
+	color: #fceff9;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-bottom: 1.5em;
 }
 
 #victoria-img {
-    display: block;
-    order: 2;
+	display: block;
+	order: 2;
 }
 
 #victoria-text {
-    /*Item Props*/
-    order: 1;
-    text-align: center;
-    font-size: 2em;
-    line-height: 1.5em;
-    /*Container Props*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+	/*Item Props*/
+	order: 1;
+	text-align: center;
+	font-size: 2em;
+	line-height: 1.5em;
+	/*Container Props*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 #victoria-title {
-    font-size: 1.25em;
-    margin: 0;
+	font-size: 1.25em;
+	margin: 0;
 }
 
 #victoria-bio {
-    text-align: justify;
-    margin: 0 2em 2em 2em;
+	text-align: justify;
+	margin: 0 2em 2em 2em;
 }
 
 #alex-flex-container {
-    display: flex;
-    background-color: #151814;
-    color: #fceff9;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 5em;
+	display: flex;
+	background-color: #151814;
+	color: #fceff9;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-bottom: 5em;
 }
 
 #alex-img {
-    display: block;
-    order: 1;
+	display: block;
+	order: 1;
 }
 
 #alex-text {
-    /*Item Props*/
-    order: 2;
-    text-align: center;
-    font-size: 2em;
-    line-height: 1.5em;
-    /*Container Props*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+	/*Item Props*/
+	order: 2;
+	text-align: center;
+	font-size: 2em;
+	line-height: 1.5em;
+	/*Container Props*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 #alex-title {
-    font-size: 1.25em;
-    margin: 0;
+	font-size: 1.25em;
+	margin: 0;
 }
 
 #alex-bio {
-    text-align: justify;
-    margin: 0 2em 0.5em 2em;
+	text-align: justify;
+	margin: 0 2em 0.5em 2em;
 }
