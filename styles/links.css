@@ -1,0 +1,25 @@
+/*Albums links*/
+#about-us-text > a {
+	color: #151814;
+}
+
+#about-us-text > a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*Footer links*/
+footer > p > a {
+	color: #fceff9;
+	text-decoration: none;
+}
+
+footer > p > a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+footer > p > a:active {
+	font-weight: bold;
+	text-decoration: none;
+}
