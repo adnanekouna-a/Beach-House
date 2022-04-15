@@ -137,7 +137,7 @@ h2 {
 	color: #fceff9;
 	flex-direction: row;
 	justify-content: flex-start;
-	margin-bottom: 5em;
+	margin-bottom: 7.5em;
 }
 
 #alex-img {
@@ -167,13 +167,32 @@ h2 {
 	margin: 0 2em 0.5em 2em;
 }
 
+/*Footer*/
+footer {
+	background-color: #151814;
+	color: #fceff9;
+	text-align: center;
+}
+
+#my-credits {
+	font-size: 1.45em;
+	padding-top: 1.5em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+#copyright-disclaimer {
+	margin-top: 1.5em;
+	margin-bottom: 0;
+	padding-bottom: 2em;
+}
+
 /*Scrollbar*/
 * {
 	scrollbar-width: auto;
 	scrollbar-color: #151814 #fceff9;
 }
 
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
 	width: 8px;
 }
