@@ -10,7 +10,7 @@ header {
 	height: 10%;
 	width: 100%;
 	/*Header's background*/
-	background-image: url(img/header-background.webp);
+	background-image: url(../img/header-background.webp);
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;
@@ -185,24 +185,4 @@ footer {
 	margin-top: 1.5em;
 	margin-bottom: 0;
 	padding-bottom: 2em;
-}
-
-/*Scrollbar*/
-* {
-	scrollbar-width: auto;
-	scrollbar-color: #151814 #fceff9;
-}
-
-*::-webkit-scrollbar {
-	width: 8px;
-}
-
-*::-webkit-scrollbar-track {
-	background: #fceff9;
-}
-
-*::-webkit-scrollbar-thumb {
-	background-color: #151814;
-	border-radius: 10px;
-	border: 1px solid #fceff9;
 }
