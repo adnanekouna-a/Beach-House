@@ -73,11 +73,13 @@ h2 {
 .surround-lines {
 	background-color: #fceff9;
 	padding: 0 0.5em;
+	text-shadow: 0px 0.5px 1.5px #151814;
 }
 
 /*Spotify Embedded Player*/
 #spotify-album {
 	margin: auto 10%;
+	box-shadow: 0 3px 7px #151814;
 }
 
 /*About Us Section*/
@@ -165,6 +167,11 @@ h2 {
 #alex-bio {
 	text-align: justify;
 	margin: 0 2em 0.5em 2em;
+}
+
+/*Shadows for the members divs*/
+#members > article {
+	box-shadow: 0 3px 7px #151814;
 }
 
 /*Footer*/
