@@ -2,6 +2,12 @@ body {
 	width: 100%;
 }
 
+header {
+	height: 15em;
+	background-size: 65em 43.16em;
+	background-position: center top;
+}
+
 #header-picture {
 	height: 200px;
 	width: 200px;

@@ -12,7 +12,6 @@ header {
 	width: 100%;
 	/*Header's background*/
 	background-image: url(../img/header-background.webp);
-	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;
