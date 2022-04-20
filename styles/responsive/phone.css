@@ -1,0 +1,82 @@
+body {
+	width: 100%;
+}
+
+header {
+	height: 10em;
+	background-size: 650px 431px;
+	background-position: center top;
+	padding-top: 8em;
+}
+
+#header-picture {
+	height: 180px;
+	width: 180px;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+#sub-title {
+	font-size: 1em;
+}
+
+h2 {
+	font-size: 1.25em;
+	padding-top: 1.5em;
+	margin-bottom: 1.2em;
+}
+
+#about-us-text {
+	width: 90%;
+	margin: auto;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+#victoria-flex-container {
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5em;
+}
+
+#victoria-img {
+	order: 1;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	padding-top: 1em;
+}
+
+#victoria-text {
+	gap: 0.75em;
+}
+
+#alex-flex-container {
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5em;
+	margin-bottom: 4em;
+}
+
+#alex-img {
+	order: 1;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	padding-top: 1em;
+}
+
+#alex-text {
+	gap: 0.75em;
+}
+
+#my-credits {
+	font-size: 0.8em;
+}
+
+#copyright-disclaimer {
+	font-size: 0.5em;
+}
