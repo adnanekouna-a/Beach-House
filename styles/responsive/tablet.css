@@ -1,57 +1,59 @@
-body {
-	width: 100%;
-}
+@media screen and (max-width: 1000px) {
+	body {
+		width: 100%;
+	}
 
-header {
-	height: 15em;
-	background-size: 65em 43.16em;
-	background-position: center top;
-}
+	header {
+		height: 15em;
+		background-size: 65em 43.16em;
+		background-position: center top;
+	}
 
-#header-picture {
-	height: 200px;
-	width: 200px;
-}
+	#header-picture {
+		height: 200px;
+		width: 200px;
+	}
 
-h1 {
-	font-size: 4em;
-	margin-bottom: 0;
-}
+	h1 {
+		font-size: 4em;
+		margin-bottom: 0;
+	}
 
-#sub-title {
-	font-size: 1.25em;
-}
+	#sub-title {
+		font-size: 1.25em;
+	}
 
-h2 {
-	font-size: 2em;
-	padding-top: 2em;
-}
+	h2 {
+		font-size: 2em;
+		padding-top: 2em;
+	}
 
-#about-us-text {
-	font-size: 1.44em;
-	line-height: 1.6em;
-}
+	#about-us-text {
+		font-size: 1.44em;
+		line-height: 1.6em;
+	}
 
-#alex-flex-container {
-	margin-bottom: 4em;
-}
+	#alex-flex-container {
+		margin-bottom: 4em;
+	}
 
-#victoria-img,
-#alex-img {
-	width: 300px;
-	height: 300px;
-}
+	#victoria-img,
+	#alex-img {
+		width: 300px;
+		height: 300px;
+	}
 
-#victoria-text,
-#alex-text {
-	font-size: 1.25em;
-	line-height: 1.25em;
-}
+	#victoria-text,
+	#alex-text {
+		font-size: 1.25em;
+		line-height: 1.25em;
+	}
 
-#my-credits {
-	font-size: 1.2em;
-}
+	#my-credits {
+		font-size: 1.2em;
+	}
 
-#copyright-disclaimer {
-	font-size: 0.75em;
+	#copyright-disclaimer {
+		font-size: 0.75em;
+	}
 }
